@@ -1,12 +1,12 @@
 import { plainToInstance } from 'class-transformer';
-import { IOffer } from '../offer.entity';
+import { IOffer } from '../../offers/offer.entity';
 import { payload as ResponseFromProvider } from './datasaset';
 import { Offer, Payload } from './secondary.provider.interface';
 import {
   ProviderConnection,
   ResponseMappingStrategy,
   ResponseValidationStrategy,
-} from '../utils/external.providers.service';
+} from '../../utils/external.providers.service';
 import { SecondaryProviderTransformer } from './secondary.provider.transformer';
 
 export class SecondaryProviderMappingStrategy extends ResponseMappingStrategy<

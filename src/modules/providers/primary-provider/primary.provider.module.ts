@@ -3,8 +3,8 @@ import {
   ProviderConnection,
   ProviderFactory,
   ResponseMappingStrategy,
-} from '../utils/external.providers.service';
-import { ResponseValidationStrategy } from '../utils/external.providers.service';
+} from '../../utils/external.providers.service';
+import { ResponseValidationStrategy } from '../../utils/external.providers.service';
 import {
   PrimaryProviderConnection,
   PrimaryProviderMappingStrategy,

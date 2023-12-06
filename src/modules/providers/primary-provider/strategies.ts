@@ -1,10 +1,10 @@
 import { plainToInstance } from 'class-transformer';
-import { IOffer } from '../offer.entity';
+import { IOffer } from '../../offers/offer.entity';
 import {
   ProviderConnection,
   ResponseMappingStrategy,
   ResponseValidationStrategy,
-} from '../utils/external.providers.service';
+} from '../../utils/external.providers.service';
 import { OfferDetails, Payload } from './primary.provider.interface';
 import { PrimaryProviderTransformer } from './primary.provider.transformer';
 import { payload as ResponseFromProvider } from './dataset';
